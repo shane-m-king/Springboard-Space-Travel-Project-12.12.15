@@ -1,0 +1,14 @@
+#planets-container {
+    font-size: 2rem;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    width: 95%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#planets-container-loading {
+    text-align: center;
+    font-size: 2rem;
+}

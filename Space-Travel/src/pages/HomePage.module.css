@@ -1,0 +1,32 @@
+#home-container h1 {
+    color:rgb(236, 85, 85);
+}
+
+#home-container h2 {
+    color: rgb(238, 149, 149);
+}
+
+#home-container p {
+    font-size: 1.2rem;
+    padding-left: 30px;
+}
+
+#home-container__nav-header {
+    padding-top: 80px;
+}
+
+#home-container__options-container h3{
+    color: rgb(201, 199, 199);
+    padding-left: 30px;
+}
+
+#home-container__options-container p{
+    padding-left: 50px;
+}
+
+#home-container__outro {
+    color: rgb(236, 85, 85);
+    font-size: 1.5rem;
+    margin-top: 80px;
+    text-align: center;
+}

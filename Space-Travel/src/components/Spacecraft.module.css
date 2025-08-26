@@ -1,0 +1,46 @@
+.spacecraft-container {
+    font-size: 1.2rem;
+    width: 90%;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: #272727;
+    display: flex;
+    align-items: center;     
+    gap: 1rem;
+        
+}
+
+.spacecraft-container img {
+    border: 1px solid #ccc;
+    width: 180px;
+    height: 160px;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.spacecraft-container__info {
+    flex: 1;     
+    overflow: hidden;    
+    text-align: center;
+}
+
+.spacecraft-container__name {
+    color:rgb(214, 213, 213);
+    text-shadow: 1px 2px rgb(165, 38, 38);
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;
+}
+
+.spacecraft-container__capacity {
+    margin-bottom: 15px;
+}
+
+.spacecraft-container__planet {
+    color: rgb(235, 23, 23);
+}
+

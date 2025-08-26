@@ -1,0 +1,57 @@
+.spacecraft-card-loading {
+    font-size: 3rem;
+}
+
+.spacecraft-card-container__header {
+    color: lightblue;
+    font-size: 3.5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.spacecraft-card-container__data {
+    
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #272727;
+}
+
+.spacecraft-card-container img {
+    align-self: center;
+    border: 3px solid lightblue;
+    width: 320px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.spacecraft-card-container__desc {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(13, 14, 14);
+    margin-top: 10px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    border-style: inset;
+    width: 80%;
+}
+
+.spacecraft-card-container__desc-header {
+    margin-top: 30px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.spacecraft-card-container button {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}

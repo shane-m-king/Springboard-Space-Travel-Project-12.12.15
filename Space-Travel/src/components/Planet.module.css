@@ -1,0 +1,38 @@
+.planet-container {
+    color: black;
+    font-size: 1.2rem;
+    min-height: 200px;
+    height: auto;
+    width: 90%;
+    background-color: rgb(203, 248, 248);
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.planet-container img {
+    width: 120px;
+    height: 120px;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.planet-container__info {
+    flex: 1;
+    overflow: hidden;
+    text-align: left;
+}
+
+.planet-container__name {
+    color: rgb(6, 7, 5);
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;
+}
